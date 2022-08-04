@@ -145,7 +145,7 @@ The `42` property name will be treated as an integer property name (aka, index);
 | :--- |
 | If you need to actually use an object as a key/property name, never rely on this computed string coercion; its behavior is surprising and almost certainly not what's expected, so program bugs are likely to occur. Instead, use a more specialized data structure, called a `Map` (added in ES6), where objects used as property "names" are left as-is instead of being coerced to a string value. |
 
-As with with `[myObj]` above, you can *compute* any **property name** (distinct from computing the property value) at the time of object literal definition:
+As with `[myObj]` above, you can *compute* any **property name** (distinct from computing the property value) at the time of object literal definition:
 
 ```js
 anotherObj = {
